@@ -1,0 +1,248 @@
+body {
+    background-image: url("//imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/bg7.jpg");
+    background-size: 100% 585px;
+    background-repeat: no-repeat;
+  }
+  
+  .logo {
+    width: 150px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 140px;
+  }
+  
+  .Searchbox {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 280px;
+    margin-right: 280px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 1px 15px 1px #7a7a7a;
+    padding: 8px 50px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgb(78, 78, 78);
+    position: relative;
+  }
+  
+  .lists {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 18px;
+    gap: 20px;
+  }
+  
+  .lists span {
+    margin-right: 5px;
+  }
+
+  .tickets {
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -60px auto 20px auto;
+    width: calc(100% - 400px); 
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 1px 15px 1px #7a7a7a;
+    padding: 8px 50px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgb(78, 78, 78);
+    top: 50px;
+    z-index: 1;
+  }
+  .ticket-type {
+    display: flex;
+    gap: 40px; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 70px;
+    margin-left: -20px;
+  }
+  
+  .ticket-type label {
+    font-family: sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ticket-type input[type="radio"] {
+    margin-right: 8px;
+  }
+  .flex-container {
+    display: flex;
+    align-items: center;
+    border: 0.005px solid rgb(164, 164, 164);
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    height: 80px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.from-to-section, .departure-section, .return-section, .travellers-section {
+    padding: 0 20px;
+}
+
+.from-to-section {
+    flex: 3;
+    border-right: 1px solid #e0e0e0;
+}
+
+.departure-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-right: 1px solid #e0e0e0;
+    padding: 0 20px;
+}
+
+.departure-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-arrow {
+    font-size: 16px; 
+    color: rgb(0, 17, 207); 
+    margin-left: 10px; 
+    margin-top: -85px;
+}
+
+.return-section {
+    flex: 2;
+    border-right: 1px solid #e0e0e0;
+}
+
+.travellers-section {
+    flex: 2;
+}
+
+h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    margin: 5px 0;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.highlight {
+    margin: 0 0 20px 0 ;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+.highlight-return{
+    margin: 0 0 30px 0 ;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.arrow {
+    font-size: 24px;
+    margin: 0 15px;
+    background-color: rgb(255, 255, 255);  
+    border-radius: 50%;      
+    width: 40px;              
+    height: 40px;             
+    display: flex;           
+    align-items: center;     
+    justify-content: center;  
+    position: relative;       
+    left: -35px;             
+}
+
+
+.date {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.traveller-count {
+    font-size: 24px;
+    font-weight: bold;
+}
+.traveller-class{
+    margin: 0 0 -30px 0 ;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+.class-type {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+
+
+.travellers-section {
+    flex: none; 
+    margin-bottom: 20px; 
+}
+.fare-selection {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin-top: -50px; 
+    flex: 5; 
+    margin-left: 0px; 
+}
+
+.extra-savings {
+    background: linear-gradient(to right, #66e2cc, #2d9cc7);
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.fare-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border: 1px solid #c4c4c4;
+    border-radius: 6px;
+    margin-right: 10px; 
+    width: 115px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fare-option:last-child {
+    margin-right: 0; 
+}
+.Offers{
+    font-weight: bold;
+}
+.search-button {
+    width: 216px;
+    height: 44px;
+    background-image: linear-gradient(93deg, #53b2fe, #065af3);
+    font-size: 28px;
+    text-align: center;
+    align-items: center;
+    border-radius: 35px;
+    color: white;
+    position: relative; 
+    left: -400px; 
+    top: 60px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
